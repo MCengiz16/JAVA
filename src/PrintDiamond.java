@@ -1,17 +1,22 @@
-public class PrintDiamond {
-    public static void main(String[] args) {
+public class PrintDiamond
+{
+    public static void main(String[] args)
+    {
         int verticalSize = 10;
         int printSpace = 10;
         int printString = 1;
 
 
 
-        for (int i = 1; i <= verticalSize; i++) {
+        for (int i = 1; i <= verticalSize; i++)
+        {
 
-            for (int j = 1; j < printSpace; j++) {
+            for (int j = 1; j < printSpace; j++)
+            {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= printString; k++) {
+            for (int k = 1; k <= printString; k++)
+            {
 
                 System.out.print("X");
 
@@ -30,13 +35,16 @@ public class PrintDiamond {
 
 
 
-        for (int i = 1; i <= verticalSize2; i++) {
+        for (int i = 1; i <= verticalSize2; i++)
+        {
 
-            for (int j = 1; j <= printSpace2; j++) {
+            for (int j = 1; j <= printSpace2; j++)
+            {
                 System.out.print(" ");
             }
 
-            for (int k = 1; k < printString2; k++) {
+            for (int k = 1; k < printString2; k++)
+            {
 
                 System.out.print("X");
             }
